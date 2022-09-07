@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Artist Search</title>
+		<link rel="stylesheet" type="text/css" href="static/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="page-heading">
+				<p>Artist Search</p>
+			</div>
+			<form class="search-bar" id="search-artist" method="get">
+				<div style="position: absolute; vertical-align: middle; width: 100%;">
+					<button type="submit" class="search-submit"><img src="static/search_icon.png"></button>
+					<input type="text" name="ArtistName" placeholder="Please enter an artist name." id="artist-search-text" required oninvalid="this.setCustomValidity('Please fill out this field.')" oninput="this.setCustomValidity('')" onfocusin="search_input_focusin()" onfocusout="search_input_focusout()">
+					<button type="reset" class="search-clear">
+						<img src="static/clear_icon.png">
+					</button>
+				</div>
+			</form>
+		</header>
+		<div id='artists' class="artists">
+		</div>
+
+		<div class="info_to_display">
+		</div>
+		
+		<footer class="footer">
+			<a href="https://www.artsy.net" target="_blank"><span>Powered by</span><img src="static/artsy_logo.svg" width="20" />Artsy</a>
+		</footer>
+		<script src="static/searchArtist.js"></script>
+	</body>
+</html>

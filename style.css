@@ -1,0 +1,240 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+	
+}
+
+body{
+	margin: 0px;
+	overflow: hidden;
+}
+
+.page-heading p{
+	margin: 0%;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.page-heading{
+	background-color: #d0cfcf;
+	padding: 10px;
+}
+
+.search-bar{
+	position: relative;
+	width: 40%;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 25px;
+	height: 30px;
+	margin: auto auto auto auto;
+	margin-top: 30px;
+}
+
+.search-bar input{
+	border: none;
+	width: 80%;
+	height: 28px;
+	vertical-align: middle;
+	background-color: white;
+}
+
+.search-submit img{
+	width: 80%;
+	float: left;
+	margin-top: auto;
+	margin-bottom: auto;
+	opacity: .3;
+}
+
+.search-submit img:hover{
+	opacity: 1;
+}
+
+.search-bar .search-clear{
+	width: 40px;
+	float: right;
+	vertical-align: middle;
+	background: none;
+	border: none;
+	height: 33px;
+}
+
+.search-bar:focus{
+	border-color: orange ;
+}
+
+.search-bar .search-submit{
+	width: 40px;
+	float: left;
+	vertical-align: middle;
+	background: none;
+	border: none;
+	height: 30px;
+}
+
+.search-clear img{
+	width: 75%;
+	opacity: .3;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.search-clear img:hover{
+	opacity: 1;
+}
+
+.footer{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #152c3b;
+	color: white;
+	height: 40px;
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	padding-bottom: 0px;
+	padding-top: 11px;
+}
+
+.footer p{
+	margin: 0px;
+    margin-top: 10px;
+}
+
+.footer > p > a{
+	text-decoration: none;
+	color: white;
+}
+
+.artists > div{
+	margin: 0px 10px 0px 10px;
+	display: -webkit-inline-box;
+	overflow-x: scroll;
+	margin-top: 40px;
+	min-width: 100%;
+}
+
+.artists{
+	padding-right: 120px;
+    padding-left: 120px;
+    text-align: center;
+}
+.individual-artist{
+	width: 20%;
+	margin: 0px 3px 0px 3px;
+	align-content: center;
+	background-color: #205375;
+}
+
+.individual-artist:hover{
+	background-color: #112B3C;
+}
+
+.individual-artist:active{
+	background-color: #112B3C;
+}
+
+.individual-artist:visited{
+	background-color: #112B3C;
+}
+
+.individual-artist:active{
+	background-color: #112B3C;
+}
+
+.individual-artist img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 80%;
+	border-radius: 100%;
+	box-shadow: 0 0 0 3px #fff;
+}
+
+.individual-artist p{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+.info_to_display{
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	overflow-y:scroll;
+	height: 371px;
+}
+
+.first_line{
+	font-size: large;
+    font-weight: 500;
+	font-family: sans-serif;
+}
+
+.nationality{
+	margin-top: -20px;
+    font-weight: 400;
+	font-family: sans-serif;
+}
+
+.biography{
+	text-align: justify;
+	text-align-last: left;
+	margin-top: -15px;
+    font-weight: 400;
+    line-height: 15px;
+    word-spacing: -2px;
+	font-family: sans-serif;
+	color: rgb(87, 86, 86);
+
+}
+
+.no-results{
+	text-align: center;
+}
+
+.no-results p{
+	text-align: center;
+	width: 50%;
+	background-color: #bcbcbc;
+	border-radius: 20px;
+	height: 25px;
+	font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: light;
+	line-height: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 14px ;
+	padding-bottom: 6px ;
+	display: block;
+	
+}
+
+.loading img{
+	text-align: center;
+}
+
+.artists > .loading{
+	margin: 0px;
+	display: block;
+	margin-top: 40px;
+	min-width: 100%;
+}
+
+.footer a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.footer a:visited{
+	text-decoration: none;
+}
